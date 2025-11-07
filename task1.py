@@ -1,15 +1,33 @@
 #!python3
-'''
-sort all of the values of x into 2 lists.
-1 list should contain all of the float values and the other list should contain all the integer values'''
+
+"""
+Write a python script display the values of the dictionary
+  1. that are sorted by their keys (ascending values) 
+  2. that are sorted by their values (ascending) 
+Note: You are not actually sorting the dictionary, but creating a new list from the values, and
+sorting those
+(3 points)
+"""
+sortMe = {
+    1: -2, 
+    2: 6, 
+    4: 0, 
+    11: 0, 
+    6: 1, 
+    10: 3, 
+    9: 2, 
+    13: 3, 
+    14: 4, 
+    15: -2, 
+    17: 0, 
+    18: -1, 
+    20: 3
+  }
+
+keys = []
+values = []
 
 
-def main():
-    integers = []
-    decimals = []
 
-    x = [7.7, 1, 3.3, 4.2, 11.0, 1, 1, 2.8, 2, 8, 3, 4, 5, 7, 9.2, 3.1, 9, 6, 4, 8, 5, 1.9, 2, 4, 4, 5.2, 2, 5.4, 2, 3.4, 7, 9.2, 3.7, 10, 8, 7, 6, 2, 2.2, 1]
-
-
-if __name__ == "__main__":
-    main()
+assert keys == [1, 2, 4, 6, 9, 10, 11, 13, 14, 15, 17, 18, 20]
+assert values == [-2, -2, -1, 0, 0, 0, 1, 2, 3, 3, 3, 4, 6]

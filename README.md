@@ -56,6 +56,22 @@ write a python script to use all of the integers from 1-10 as the keys and the s
 (2 points)
 
 ##### Task 3
+Have the user enter in the following information and 
+store it into a dictionary.  Use an appropriate key 
+for each element of the dictionary.
+
+first name
+last name
+student number
+birthdate
+grade
+email
+
+Then create a loop to repeatedly ask the user for a key.
+If the key is in the dictionary, display the value.
+If the user types in "quit" then stop the loop.
+
+##### Task 4
 create a dictionary for an inventory of items in a game.  Ask the user for input, and if the item they choose to 'get item', add that item to their inventory.  If they choose to drop item' remove that item from that invenory.  If they choose 'show inventory' give them a list of the items that they have. You will need to make use of the string.split() method in order to separate the item name from the action that precedes it.
 
 Possible extensions:
