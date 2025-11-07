@@ -47,26 +47,16 @@ inventory =  {
     'none' : 0
 }
 
-### XX Tasks
 
 ##### Task 1
-sort all of the values of x into 2 lists.
-1 list should contain all of the float values and the other list should contain all the integer values
-(2 points) 
-
-##### Task 2
-use a for loop to iterate through all possible integers to find the factors of 24
-(2 points)
-
-##### Task 3
 Write a python script display the values of the dictionary that are sorted by their keys (ascending values)
 (3 points)
 
-##### Task 4
+##### Task 2
 write a python script to use all of the integers from 1-10 as the keys and the squares of those numbers as the values
 (2 points)
 
-##### Task 5
+##### Task 3
 create a dictionary for an inventory of items in a game.  Ask the user for input, and if the item they choose to 'get item', add that item to their inventory.  If they choose to drop item' remove that item from that invenory.  If they choose 'show inventory' give them a list of the items that they have. You will need to make use of the string.split() method in order to separate the item name from the action that precedes it.
 
 Possible extensions:
