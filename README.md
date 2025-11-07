@@ -2,8 +2,7 @@
 
 
 Objectives:
-* Retrieve and store data from multi value variables
-* Understand the difference between a tuple and a list
+* Understand the difference a list and a dictionary
 * Create and use dictionary (dict) type variables
 * Explore how the "for" command can be used to iterate through a tuple, dict or list
 * Understand what is meant by a key,value pair
